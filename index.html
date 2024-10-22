@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Osobní portfolio začínající programátorky Katky Rampulové" />
+    <meta name="keywords" content="portfolio, programátorka" />
+    <meta name="author" content="Katka Rampulová" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+    <link rel="shortcut icon" href="Obr/ikonka.png" />
+    <link rel="stylesheet" href="moje.css" type="text/css" />
+   
+    <title>Osobní stránka KR</title>
+</head>
+
+<body>
+    
+    <header>
+        <div id="logo">
+            <h1><span>Katka Rampulová</span></h1>
+            <!-- <small><em>Nový začátek - nová síla</em></small> -->
+
+    </div>
+
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">MENU &#9776;</div>
+        <div id="nav-menu" class="nav-menu">
+
+            <ul>
+                <li class="aktivni"><a href="index.html">Domů</a></li>
+                <li><a href="ja.html">Já</a></li>
+                <li><a href="prace.html">Práce</a></li>
+                <li><a href="rekvalifikacni kurz.html">Rekvalifikace</a></li>
+                <li><a href="certifikaty.html">Certifikáty</a></li>
+                <li><a class="kontaktni-tlacitko" href="e-mail.html">Kontakt</a></li>
+            </div>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <header>
+            <h1>Vítejte na mých osobních stránkách</h1>
+        </header>
+
+        <section>
+
+            <img src="images/kocka.jpg" class="avatar" alt="Profilová fotka Katky"/>
+         
+            
+            <p>Ráda bych Vás přivítala na mém prvním webu, který jsem založila jako svoji osobní reprezentaci pro potencoionální zaměstnavatele. Máte-li zájem, račte číst dále. </p>    
+            <p>Jmenuji se Kateřina Rampulová, je mi 42 let, bydlím v Brně a jsem mámou 16ti letého syna Lukáše. Momentálně pracuji ve společnosti <a href="https://100mega.cz">100Mega Distribution</a>, která se zabývá velkoobchodním prodejem výpočetní techniky.
+            Více o mém dosavadním zaměstnání popisuji v sekci <a href="prace.html">Práce</a>.</p>
+            <p>Před rokem a půl jsem "přičichla" k programování a tak jsem si řekla, že se tuto činnost zkusím naučit pod odborným vedením. Přihlásila jsem se tedy na rekfalifikační kurz, který jsem v září 2024 úspěšně uzavřela závěrečnou zkouškou. Nyní se můžu považovat za čerstvého absolventa kurzu <strong>"Programátor webových aplikací v jazyce Java."</strong>
+            Více o mé rekvalifikaci se dozvíte v sekci <a href="rekvalifikacni kurz.html">Rekvalifikace</a> a nahlédnout můžete také do sekce <a href="certifikaty.html">Certifikáty</a>, které jsem získala v rámci kurzu.</p>
+            <p>Ráda bych se v oboru IT realizovala i nadále. Jsem sice začátečník, ale kdo někdy nebyl, že...? 🙂</p>
+            <p></p><strong>Máte-li tedy chuť si vychovat dobrého programátora od základů ve vaší firmě, pak jsem to přesně já koho hledáte! ✌</strong></p>
+            <p>Kontaktovat mě můžete zde → <a href="e-mail.html">KONTAKT</a></p>
+                   
+           
+    <div class="cistic"></div>
+
+    <p class="kontaktni-tlacitko">
+
+    </section>
+</article>
+
+    <footer>
+        Vytvořila &copy;Katka Rampulová 2024    
+    </footer>
+
+    <script>
+  function toggleMenu() {
+    var menu = document.getElementById("nav-menu");
+    if (menu.style.display === "none" || menu.style.display === "") {
+        menu.style.display = "flex"; // Zobrazí menu
+    } else {
+        menu.style.display = "none"; // Skryje menu
+    }
+} 
+
+    </script>
+
+    
+</body>
+</html>
+

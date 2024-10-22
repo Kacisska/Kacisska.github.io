@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Osobní portfolio začínající programátorky Katky Rampulové" />
+    <meta name="keywords" content="portfolio, programátorka" />
+    <meta name="author" content="Katka Rampulová" />
+    <link rel="shortcut icon" href="Obr/posta.png" />
+    <link rel="stylesheet" href="moje.css" type="text/css" />

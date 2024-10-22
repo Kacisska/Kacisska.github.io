@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+  
+    <meta charset="utf-8" />
+    <meta name="description" content="Osobní portfolio začínající programátorky Katky Rampulové" />
+    <meta name="keywords" content="portfolio, programátorka" />
+    <meta name="author" content="Katka Rampulová" />
+    <link rel="shortcut icon" href="Obr/posta.png" />
+    <link rel="stylesheet" href="moje.css" type="text/css" />
+   
+    <title>Kontakt</title>
+    
+</head>
+<body>
+    <header> 
+        <div id="logo">
+            <h1><span>Katka Rampulová</span></h1>
+            <!-- <small><em>Nový začátek - nová síla</em></small> -->
+    </div>
+    
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">MENU &#9776;</div>
+            <div id="nav-menu" class="nav-menu">
+        <ul>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="ja.html">Já</a></li>
+            <li><a href="prace.html">Práce</a></li>
+            <li><a href="rekvalifikacni kurz.html">Rekvalifikace</a></li>
+            <li><a href="certifikaty.html">Certifikáty</a></li>
+            <li class aktivni><a class="kontaktni-tlacitko" href="e-mail.html">Kontakt</a></li>
+        </div>
+        </ul>
+    </nav>
+</header>
+
+<article>
+    <header>
+          <h1>Kontakt</h1>
+    </header>
+
+    <section>
+        <p>  
+            <img src="Obr/posta.png" alt="email" class="vlevo"/></p>
+      <p>Pokud máte zájem, napište mi email na <strong><a href = "mailto:roger2003@seznam.cz?subject=Dotaz&body=Zde%20napište%20váš%20dotaz">roger2003@seznam.cz</strong></a> nebo využijte formuláře níže.</p> 
+        
+      <p class="centrovany">
+            <iframe frameborder="0" scrolling="no" width="700px" height="220px"
+            src="https://www.itnetwork.cz/api/Service-MailForm/66faeff254f3a4.46145193">
+            </iframe>
+           </p> 
+        
+        <p class="domu">
+        <a href="index.html" class="domu">Zpět na hlavní stranu</a>
+            
+            <div class="cistic"></div>
+        </p>
+        </section>
+        </article>
+    
+        <footer>
+            Vytvořila &copy;Katka Rampulová 2024
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById("nav-menu");
+                if (menu.style.display === "none" || menu.style.display === "") {
+                    menu.style.display = "flex"; // Zobrazí menu
+                } else {
+                    menu.style.display = "none"; // Skryje menu
+                }
+            }
+        </script>
+
+    </body>
+    
+    </html>
+

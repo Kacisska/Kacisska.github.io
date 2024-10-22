@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Osobní portfolio začínající programátorky Katky Rampulové" />
+    <meta name="keywords" content="portfolio, programátorka" />
+    <meta name="author" content="Katka Rampulová" />
+    <link rel="shortcut icon" href="Obr/ikonka.png">
+    <link rel="stylesheet" href="moje.css" type="text/css" />
+
+    <title>Já</title>
+    
+</head>
+<body>
+    <header> 
+        <div id="logo">
+            <h1><span>Katka Rampulová</span></h1>
+            <!-- <small><em>Nový začátek - nová síla</em></small> -->
+    </div>
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">MENU &#9776;</div>
+        <div id="nav-menu" class="nav-menu">
+
+        <ul>
+            <li><a href="index.html"> Domů</a></li>
+            <li class="aktivni"><a href="ja.html">Já</a></li>
+            <li><a href="prace.html">Práce</a></li>
+            <li><a href="rekvalifikacni kurz.html">Rekvalifikace</a></li>
+            <li><a href="certifikaty.html">Certifikáty</a></li>
+            <li><a class="kontaktni-tlacitko" href="e-mail.html">Kontakt</a></li>
+        </div>
+        </ul>
+    </nav>
+</header>
+
+<article>
+
+    <header>
+    <h1>Já</h1>
+    </header>
+
+    <section>
+       
+        <p>Jsem optimistická společenská duše se smyslem pro humor. Miluji cestování, vaření, pečení, horory, luštění šifer, léto, řízení auta, adrenalin, ale někdy taky absolutní ticho. S přáteli ráda navštěvuji pubkvízy. Jsem fanynkou rockové a metalové hudby🤘, ale dokážu si poslechnout cokoliv, když je hudba kvalitní.</p>
+
+        <p class="domu">
+        <a href="index.html">⏎ Zpět na hlavní stranu</a>
+
+        <div class="cistic"></div>
+
+    </section>
+</article>
+
+<footer>
+    Vytvořila &copy;Katka Rampulová 2024
+</footer>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("nav-menu");
+        if (menu.style.display === "none" || menu.style.display === "") {
+            menu.style.display = "flex"; // Zobrazí menu
+        } else {
+            menu.style.display = "none"; // Skryje menu
+        }
+    }
+</script>
+
+</body>
+</html>

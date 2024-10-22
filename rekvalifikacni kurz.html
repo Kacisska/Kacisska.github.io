@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+  
+    <meta charset="utf-8" />
+    <meta name="description" content="Osobní portfolio začínající programátorky Katky Rampulové" />
+    <meta name="keywords" content="portfolio, programátorka" />
+    <meta name="author" content="Katka Rampulová" />
+    <link rel="shortcut icon" href="Obr/ikonka.png">
+    <link rel="stylesheet" href="moje.css" type="text/css" />
+   
+    <title>Rekvalifikace</title>
+    
+</head>
+<body>
+    <header> 
+        <div id="logo">
+            <h1><span>Katka Rampulová</span></h1>
+            <!-- <small><em>Nový začátek - nová síla</em></small> -->
+    </div>
+    
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">MENU &#9776;</div>
+            <div id="nav-menu" class="nav-menu">
+        <ul>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="ja.html">Já</a></li>
+            <li><a href="prace.html">Práce</a></li>
+            <li class="aktivni"><a href="rekvalifikacni kurz.html">Rekvalifikace</a></li>
+            <li><a href="certifikaty.html">Certifikáty</a></li>
+            <li><a class="kontaktni-tlacitko" href="e-mail.html">Kontakt</a></li>
+        </div>
+        </ul>
+    </nav>
+</header>
+
+<article>
+    <header>
+          <h1>Rekvalifikace</h1>
+    </header>
+
+    <section>
+        <p>Jak už jsem v úvodu avizovala, jsem absolventem rekvalifikačního kurzu, obor programátor webových aplikací v jazyce Java.
+        Rekvalifikační kurz jsem studovala rok (2023 - 2024) pod vedením výukové akademie <a href="https://itnetwork.cz">Itnetwork.cz.</a><br>
+        <p><strong>Kurz zahrnoval následující obory výuky:</strong></p>   
+
+        <nav>
+            
+                <li>Základní konstrukce jazyka Java</li><br>
+                <li>Objektově-orientované programování v Javě</li><br>
+                <li>Kolekce a proudy v Javě</li><br>
+                <li>My-SQL v Javě</li><br>
+                <li>Java framework Spring Boot</li><br>
+                <li>Firemní vývoj v Javě - GIT a testování</li><br>
+                <li>Základní konstrukce jazyka JavaScript</li><br>
+                <li>Moderní webdesign</li><br>
+                <li>Bootstrap</li>
+
+                
+           
+        </nav>
+
+        <p>Získaná osvědčení z těchto oblastí najdete v sekci <a href="certifikaty.html">Certifikáty</a>.</p>
+
+        <div class="cistic"></div>
+      
+        <p class="domu">
+        <a href="index.html">⏎ Zpět na hlavní stranu</a>
+
+    </section>
+</article>
+
+<footer>
+    Vytvořila &copy;Katka Rampulová 2024
+    
+</footer>
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("nav-menu");
+        if (menu.style.display === "none" || menu.style.display === "") {
+            menu.style.display = "flex"; // Zobrazí menu
+        } else {
+            menu.style.display = "none"; // Skryje menu
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

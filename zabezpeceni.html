@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Osobní portfolio začínající programátorky Katky Rampulové" />
+    <meta name="keywords" content="portfolio, programátorka" />
+    <meta name="author" content="Katka Rampulová" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+    <link rel="shortcut icon" href="Obr/ikonka.png" />
+    <link rel="stylesheet" href="moje.css" type="text/css" />
+
+  <title>Ochrana heslem</title>
+</head>
+<body>
+    <article>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password").value;
+      if(password == "pracesnu") {
+        window.location = "index.html"; // Odkaz na stránku, kam chceš přesměrovat po zadání správného hesla
+      } else {
+        alert("Nesprávné heslo!");
+      }
+    }
+  </script>
+
+
+  <h2>Ochrana stránky heslem</h2>
+  <input type="password" id="password" placeholder="Zadej heslo">
+  <button onclick="checkPassword()">Přihlásit se</button>
+
+  
+</article>
+</body>
+</html>
